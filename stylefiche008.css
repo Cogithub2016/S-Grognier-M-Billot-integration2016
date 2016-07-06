@@ -88,7 +88,7 @@ div.sub.resub{padding-left:8%;padding-right:8%;position:absolute;left:0;}
 .radioopener:checked + p .labelopener{z-index:-1;}
 .radioopener:checked + p .labelcloser{z-index:999;}
 .bordlab{padding-bottom:0;border:none;}
-.radioopener:checked ~ p a .bordlab{border-bottom:none;}
+/*.radioopener:checked ~ p a .bordlab{border-bottom:none;}*/
 .radioopener:checked ~ p a .bordlab{color:#558540;}
 dl dt{font-weight:600;}
 span.fa.fa-map-o{font-size:23px;}
@@ -181,8 +181,9 @@ p.alllink a span.fa.fa-caret-right.after{font-size:30px;display:inline-block;pos
 	.top-li > label{display:inline-block;width:100%;height:25px;float:left;cursor:pointer;background-color:red;}
 	.labelopener{z-index:999;}
 	.labelcloser{z-index:1;}
-	.bordlab{z-index:-2;padding-bottom:7px;}
-	.radioopener:checked ~ p a .bordlab{border-bottom:4px solid #558540;}
+	.bordlab{z-index:-2;padding-bottom:7px;border-bottom:4px solid white;}
+	/*.radioopener:checked ~ p a .bordlab{border-bottom:4px solid #558540;}*/
+	.bordlab.current-menu-item{border-bottom:4px solid #558540;}
 	.radioopener:checked ~ p a .bordlab{color:#333333;}
 	.radioopener:checked ~ .sub{display:initial;}
 	.menu div dl{padding:30px 5px 10px 5px;}
@@ -606,8 +607,5 @@ p.iconic{margin-left:25px;}
      clear: both;
      height: 0;
      }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack */
