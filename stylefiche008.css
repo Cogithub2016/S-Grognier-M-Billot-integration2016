@@ -31,7 +31,6 @@ label{cursor:pointer;}
 #midheader span.fa.glyphicon-user{font-size:24px;}
 #midheader span.fa.fa-bars{padding-left:0;}
 
-
 #midheader label{display:inline-block;width:35px;text-align:center;}
 #midheader label.openmenu{text-align:left;}
 #midheader label.closemenu{display:none;}
@@ -108,16 +107,7 @@ label.smallopen{z-index:998;}
 span.aide{display:none;}
 #inputsearch{height:33px;}
 .menu div dd a span.fa.fa-caret-right.before{font-size:19px;color:green;}
-.menu div dd a:before{
-	content:'\25B8';
-	color:green;
-	font-size:20px;
-	line-height:28px;
-	display:inline-block;
-	position:relative;
-	top:2px;
-	
-}
+.menu div dd a:before{content:'\25B8';color:green;font-size:20px;line-height:28px;display:inline-block;position:relative;top:2px;}
 p.alllink a span.fa.fa-caret-right.after{font-size:30px;display:inline-block;position:relative;top:4px;}
 #bottomheader span.fa-plus,#bottomheader span.fa-minus{font-weight:700;font-size:35px}
 #bottomheader img.depliant{display:inline-block;position:relative;top:5px;}
@@ -136,10 +126,7 @@ p.alllink a span.fa.fa-caret-right.after{font-size:30px;display:inline-block;pos
 	div.sub.resub{display:none;}
 	dt{display:block;width:100%;}
 	#bottomheader ul.menu dt{position:relative;width:100%;line-height:35px;}
-
 }
-
-
 @media (min-width : 451px){
 	#fauser span + span {display:inherit;}	
 	#facart span + span{display:inherit;}
@@ -149,9 +136,7 @@ p.alllink a span.fa.fa-caret-right.after{font-size:30px;display:inline-block;pos
 	#fauser span + span {display:none;}	
 	#facart span + span{display:none;}
 	p.inputli{margin-left:2px;display:block;margin-top:0;text-align:center;}
-	
 }
-
 @media (min-width : 720px){
 	#outpreheader{background:#393939;position:absolute;top:0;color:white;width:100%;margin-left:auto;margin-right:auto;line-height:0.9em;font-size:0.9em;margin-bottom:0;padding-bottom:0;}
 	.hamburger{display:none;}
@@ -191,14 +176,11 @@ p.alllink a span.fa.fa-caret-right.after{font-size:30px;display:inline-block;pos
 	p.alllink{border-top:none;}
 	dt label.smallclose,dt label.smallopen{display:none;}
 	.menu div dd{display:inherit;}
-	
 }
 @media (min-width : 775px){
 	span.aide{display:inherit;}
 	#midheader p #inputsearch{background-size:auto 80%;background-position:right;padding:0 20px 0 5px;with:33%;}
 }
-
-
 @media (min-width : 877px){
 		#midheader{line-height:40px;}
 		.logotext a{font-size:22px;padding:4px 10px 2px 30px;}
@@ -402,11 +384,7 @@ label.descpan{padding:6px 20px;background:#f6f9f9;border-right:4px solid #e8ebeb
 	
 	label.mini{display:none;}
 	label.medium{display:inline-block;}
-
 }
-
-
-
 @media (min-width : 587px){
 	label.descpan{display:inline-block;width:auto;padding:6px 20px;background:#f6f9f9;border-right:4px solid #e8ebeb;border-bottom:4px solid #e8ebeb;cursor:pointer;}
 	#details label span.fa.pane{display:none;}
@@ -417,7 +395,6 @@ label.descpan{padding:6px 20px;background:#f6f9f9;border-right:4px solid #e8ebeb
 	#radpan03:checked ~ p label:nth-of-type(3) span.fa.fa-plus{display:none;}
 	#radpan03:checked ~ p label:nth-of-type(3) span.fa.fa-minus{display:none;}
 }
-
 @media (min-width : 830px){
 	.leftpanel{width:67%;background:white;float:left;}
 	.rightpanel{width:33%;float:left;}
@@ -462,7 +439,6 @@ img{line-height:200px;}
 	.showautres{flex-wrap:initial;}
 	.unprod{width:23%;}
 	.unprod h3 a{font-size:1em;}
-	
 }
 /*----------------------------------------------------------------------------------------------*/
 /******************************* Reassurace ***************************************/
@@ -573,13 +549,10 @@ p.iconic{margin-left:25px;}
 	.autresliens{flex-direction:row;align-items:top;padding-left:8px;}
 	.autresliens{max-width:1040px;}
 	.autresliens h3{padding-top:20px;padding-bottom:25px;}
-	
 }
-
 @media (min-width : 892px){
 	.conseil .rectgl{font-size:16px;padding:10px;}
 	.autresliens div{padding-left:5px;padding-right:5px;}
-	
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -590,9 +563,6 @@ p.iconic{margin-left:25px;}
 @media (min-width : 1250px){
 	.cookies{max-width:1250px;margin-left:auto;margin-right:auto;}
 }
-
-
-
 .clearfix:after {
      visibility: hidden;
      display: block;
