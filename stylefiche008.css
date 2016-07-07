@@ -88,7 +88,6 @@ div.sub.resub{padding-left:8%;padding-right:8%;position:absolute;left:0;}
 .radioopener:checked + p .labelopener{z-index:-1;}
 .radioopener:checked + p .labelcloser{z-index:999;}
 .bordlab{padding-bottom:0;border:none;}
-/*.radioopener:checked ~ p a .bordlab{border-bottom:none;}*/
 .radioopener:checked ~ p a .bordlab{color:#558540;}
 dl dt{font-weight:600;}
 span.fa.fa-map-o{font-size:23px;}
