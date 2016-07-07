@@ -77,12 +77,7 @@ dd a{display:block;}
 .top-li > p{position:relative;display:inline-block;}
 div.sub.resub{padding-left:8%;padding-right:8%;position:absolute;left:0;}
 .resub{width:100%;}
-
-.sub#p1{background:#ffffff;}
-.sub#p2{background:#ffffff;}
-.sub#p3{background:#ffffff;}
-.sub#p4{background:#ffffff;}
-
+.sub#p1, .sub#p2, .sub#p3, .sub#p4{background:#ffffff;}
 .radiocloser:checked ~ .sub{display:none;}
 .radioopener:checked ~ .sub{display:block;}
 .radioopener:checked + p .labelopener{z-index:-1;}
