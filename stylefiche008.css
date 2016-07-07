@@ -6,7 +6,6 @@ html,body{width:100%;min-height:100%;color:#696969;background:#e8ebeb !important
 /*******************************      header                *************************************/
 /*----------------------------------------------------------------------------------------------*/
 
-
 header{background:#ffffff;max-width:1250px;margin-left:auto;margin-right:auto;position:relative;}
 header ul{list-style:none;}
 input[type=radio]{display:none;}
@@ -432,7 +431,7 @@ img{line-height:200px;}
 @media (min-width : 430px){
 	.imgwrap{height:232px;text-align:center;display:table-cell;vertical-align:middle;text-align:center;width:100%;}
 	.unprod h3 a{font-size:1em;}
-	}
+}
 @media (min-width : 800px){
 	.showautres{flex-wrap:initial;}
 	.unprod{width:23%;}
@@ -561,13 +560,6 @@ p.iconic{margin-left:25px;}
 @media (min-width : 1250px){
 	.cookies{max-width:1250px;margin-left:auto;margin-right:auto;}
 }
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
