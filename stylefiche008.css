@@ -77,18 +77,12 @@ dd a{display:block;}
 .top-li > p{position:relative;display:inline-block;}
 div.sub.resub{padding-left:8%;padding-right:8%;position:absolute;left:0;}
 .resub{width:100%;}
-
-.sub#p1{background:#ffffff;}
-.sub#p2{background:#ffffff;}
-.sub#p3{background:#ffffff;}
-.sub#p4{background:#ffffff;}
-
+.sub#p1, .sub#p2, .sub#p3, .sub#p4{background:#ffffff;}
 .radiocloser:checked ~ .sub{display:none;}
 .radioopener:checked ~ .sub{display:block;}
 .radioopener:checked + p .labelopener{z-index:-1;}
 .radioopener:checked + p .labelcloser{z-index:999;}
 .bordlab{padding-bottom:0;border:none;}
-/*.radioopener:checked ~ p a .bordlab{border-bottom:none;}*/
 .radioopener:checked ~ p a .bordlab{color:#558540;}
 dl dt{font-weight:600;}
 span.fa.fa-map-o{font-size:23px;}
